@@ -5,17 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio V3</title>
     <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="style.css">
     <style>
         *,
         body {
             margin: 0px;
             padding: 0px;
+            scroll-behavior: smooth;
         }
     </style>
 </head>
 <body>
-    <div class="bg-slate-200 w-12/12 h-14">
-        <p class="text-black font-sans text-center text-xl pt-3">CleazT<img src="../images/25231.png" width="10px" height="10px"></p>
+    <div class="bg-slate-200 h-14 flex fixed select-none" id="navbar">
+        <p class="text-black font-sans text-center text-xl pt-3 ml-2">CleazT</p>
+        <img src="../images/25231.png" width="30px" height="1px" id="github" class="pt-3 ml-2">
+        <div class="ml-72 pl-16 mt-3.5" id="buttons">
+            <a class="text-xl rounded-sm px-2 py-2 hover:bg-slate-300" href="#" id="myproj">My Projects</a>
+            <a class="text-xl px-8 py-2 rounded-sm hover:bg-slate-300" href="#">Home</a>
+            <a class="text-xl px-2 py-2 rounded-sm hover:bg-slate-300" href="#">Contact Me</a>
+        </div>
     </div>
 </body>
 </html>
